@@ -32,7 +32,9 @@ use_localtime=YES
 xferlog_enable=YES        
 在服务器上针对 PORT 类型的连接使用端口 20（FTP 数据）
 connect_from_port_20=YES  
+
 不单独建立ftp用户，直接使用Ubuntu桌面用户就可以登陆
+
 chroot_local_user=YES
 chroot_list_enable=NO
 能够登录的用户名单
